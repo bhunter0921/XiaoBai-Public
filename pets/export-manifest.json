@@ -1,0 +1,135 @@
+{
+  "format": "Codex 8x9",
+  "rows": [
+    {
+      "state": "idle",
+      "asset": "A01",
+      "file": "idle.apng",
+      "sha256": "a05b0e2fb5c7429e13ab786408e580e4ac380bf80c48ca001cbca01c8742e4b5",
+      "frames": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "state": "running-right",
+      "asset": "E07",
+      "file": "e07-mini-crabwalk-v0.3.apng",
+      "sha256": "120c4417ec2c75d9cb66d6ac22ce851c51333f7efe5c47548364ee1f9f8951e9",
+      "frames": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ]
+    },
+    {
+      "state": "running-left",
+      "asset": "E07",
+      "file": "e07-mini-crabwalk-v0.3.apng",
+      "sha256": "120c4417ec2c75d9cb66d6ac22ce851c51333f7efe5c47548364ee1f9f8951e9",
+      "frames": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ]
+    },
+    {
+      "state": "waving",
+      "asset": "D05",
+      "file": "d05-double-wave-v0.1.apng",
+      "sha256": "9a115f2bcf0415fd953ef5ae89735315988fd94ae33f5b2d27244509ee36e491",
+      "frames": [
+        0,
+        3,
+        9,
+        13
+      ]
+    },
+    {
+      "state": "jumping",
+      "asset": "D06",
+      "file": "d06-double-jump-v0.1.apng",
+      "sha256": "bff3a6ccfaaf2ea4afa88e134d8e4c84e2afb32b065984e2865f481c1500bf41",
+      "frames": [
+        0,
+        2,
+        9,
+        17,
+        20
+      ]
+    },
+    {
+      "state": "failed",
+      "asset": "A10",
+      "file": "error.apng",
+      "sha256": "26ab4c44e9e5eb834146de39951aaf019051229415317262a790067ae1a23f15",
+      "frames": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        11
+      ]
+    },
+    {
+      "state": "waiting",
+      "asset": "A12",
+      "file": "notification-v0.1.apng",
+      "sha256": "eaa65ec7803cabb3fd72c0723353d593735fb0fe485d01b16ea8f11b26f92a98",
+      "frames": [
+        0,
+        1,
+        5,
+        7,
+        8,
+        15
+      ]
+    },
+    {
+      "state": "running",
+      "asset": "A07",
+      "file": "working.apng",
+      "sha256": "28aebc3eb811300a939e853461cd48f5379732fa1a655e8e61002a52ae8de77a",
+      "frames": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "state": "review",
+      "asset": "F02",
+      "file": "f02-debugging-v0.2.apng",
+      "sha256": "6c92b42b927bab115b24f6351f2b7b48672e706c3b31d2e10c0c74f1be8b2d6f",
+      "frames": [
+        0,
+        5,
+        12,
+        25,
+        40,
+        55
+      ]
+    }
+  ],
+  "atlas_sha256": "cfaf471309ebe74680af1ab236398d52fda8e7fd9c12aa83fe7910fface8c43f"
+}

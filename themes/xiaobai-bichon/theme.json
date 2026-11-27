@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "name": "小白 · 比熊 (v0.2.0 完整候选)",
+  "version": "0.2.0",
+  "description": "Full asset coverage; release candidate for Clawd on Desk v1.7.0; desktop validation pending",
+  "preview": "idle.apng",
+  "viewBox": {
+    "x": 0,
+    "y": 0,
+    "width": 384,
+    "height": 384
+  },
+  "layout": {
+    "contentBox": {
+      "x": 0,
+      "y": 0,
+      "width": 384,
+      "height": 384
+    }
+  },
+  "eyeTracking": {
+    "enabled": false,
+    "states": []
+  },
+  "states": {
+    "idle": [
+      "idle.apng"
+    ],
+    "roam": [
+      "roam.apng"
+    ],
+    "yawning": [
+      "yawning-v0.1.apng"
+    ],
+    "dozing": [
+      "dozing-v0.1.apng"
+    ],
+    "collapsing": [
+      "collapsing-v0.2.apng"
+    ],
+    "thinking": [
+      "thinking.apng"
+    ],
+    "working": [
+      "working.apng"
+    ],
+    "juggling": [
+      "juggling-v0.1.apng"
+    ],
+    "sweeping": [
+      "sweeping-v0.2.apng"
+    ],
+    "error": [
+      "error.apng"
+    ],
+    "attention": [
+      "attention-v0.2.apng"
+    ],
+    "notification": [
+      "notification-v0.1.apng"
+    ],
+    "carrying": [
+      "carrying-v0.6.apng"
+    ],
+    "sleeping": [
+      "sleeping.apng"
+    ],
+    "waking": [
+      "waking-v0.1.apng"
+    ],
+    "dizzy": [
+      "dizzy-v0.1.apng"
+    ]
+  },
+  "hitBoxes": {
+    "default": {
+      "x": 40,
+      "y": 40,
+      "w": 324,
+      "h": 320
+    },
+    "sleeping": {
+      "x": 40,
+      "y": 160,
+      "w": 304,
+      "h": 200
+    }
+  },
+  "sleepSequence": {
+    "mode": "full"
+  },
+  "workingTiers": [
+    {
+      "minSessions": 3,
+      "file": "b03-working-3plus-v0.1.apng"
+    },
+    {
+      "minSessions": 2,
+      "file": "working-dual-v0.1.apng"
+    },
+    {
+      "minSessions": 1,
+      "file": "working.apng"
+    }
+  ],
+  "jugglingTiers": [
+    {
+      "minSessions": 2,
+      "file": "b05-juggling-multi-v0.1.apng"
+    },
+    {
+      "minSessions": 1,
+      "file": "juggling-v0.1.apng"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "file": "c01-look-around-v0.1.apng",
+      "duration": 2670
+    },
+    {
+      "file": "c02-ball-play-v0.2.apng",
+      "duration": 3200
+    },
+    {
+      "file": "c03-bone-chew-v0.1.apng",
+      "duration": 3250
+    },
+    {
+      "file": "idle-scratch.apng",
+      "duration": 1920
+    }
+  ],
+  "reactions": {
+    "drag": {
+      "file": "d01-drag-v0.1.apng"
+    },
+    "clickLeft": {
+      "file": "d02-click-left-v0.1.apng",
+      "duration": 1230
+    },
+    "clickRight": {
+      "file": "d03-click-right-v0.1.apng",
+      "duration": 1230
+    },
+    "annoyed": {
+      "file": "d04-annoyed-v0.1.apng",
+      "duration": 1410
+    },
+    "double": {
+      "files": [
+        "d05-double-wave-v0.1.apng",
+        "d06-double-jump-v0.1.apng"
+      ],
+      "duration": 1920
+    }
+  },
+  "miniMode": {
+    "supported": true,
+    "offsetRatio": 0.486,
+    "peek": {
+      "offsetRatio": 0.0806,
+      "delayMs": 375,
+      "durationMs": 125
+    },
+    "states": {
+      "mini-idle": [
+        "e01-mini-idle-v0.2.apng"
+      ],
+      "mini-alert": [
+        "e02-mini-alert-v0.2.apng"
+      ],
+      "mini-happy": [
+        "e03-mini-happy-v0.2.apng"
+      ],
+      "mini-enter": [
+        "e04-mini-enter-v0.2.apng"
+      ],
+      "mini-peek": [
+        "e05-mini-peek-v0.2.apng"
+      ],
+      "mini-working": [
+        "e06-mini-working-v0.2.apng"
+      ],
+      "mini-crabwalk": [
+        "e07-mini-crabwalk-v0.3.apng"
+      ],
+      "mini-enter-sleep": [
+        "e08-mini-enter-sleep-v0.3.apng"
+      ],
+      "mini-sleep": [
+        "e09-mini-sleep-v0.3.apng"
+      ]
+    },
+    "timings": {
+      "minDisplay": {
+        "mini-alert": 4000,
+        "mini-happy": 4000
+      },
+      "autoReturn": {
+        "mini-alert": 4000,
+        "mini-happy": 4000,
+        "mini-peek": 1230
+      }
+    }
+  },
+  "mirroredFiles": {
+    "e09-mini-sleep-v0.3.apng": "e09-mini-sleep-v0.3-left.apng"
+  },
+  "displayHintMap": {
+    "claude-design": "f01-designing-v0.2.apng",
+    "clawd-working-debugger.svg": "f02-debugging-v0.2.apng"
+  },
+  "completionVisualMap": {
+    "claude-design": "f03-special-complete-v0.1.apng"
+  },
+  "updateVisuals": {
+    "checking": "f02-debugging-v0.2.apng"
+  },
+  "idleVisualOptions": [
+    {
+      "file": "f04-easter-egg-v0.1.apng"
+    }
+  ],
+  "timings": {
+    "yawnDuration": 2100,
+    "wakeDuration": 2160,
+    "mouseIdleTimeout": 20000,
+    "mouseSleepTimeout": 60000,
+    "minDisplay": {
+      "attention": 2000,
+      "error": 2100,
+      "working": 1000,
+      "thinking": 1000,
+      "notification": 2000,
+      "carrying": 640
+    },
+    "autoReturn": {
+      "attention": 2000,
+      "error": 2100,
+      "notification": 2000,
+      "dizzy": 2400
+    }
+  }
+}

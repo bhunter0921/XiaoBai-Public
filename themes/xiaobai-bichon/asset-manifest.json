@@ -1,0 +1,935 @@
+{
+  "status": "RC1-derived A09 fix candidate; desktop acceptance pending",
+  "independent_candidates": 41,
+  "extra_files": [
+    "E07",
+    "E09-LEFT"
+  ],
+  "asset_count": 43,
+  "bytes": 70279395,
+  "theme_sha256": "d548437c7605ea52fd3a546305fa8b486c232ce4c62a6b83bc1468d87ded9f77",
+  "assets": [
+    {
+      "id": "A01",
+      "file": "idle.apng",
+      "frames": 9,
+      "duration_ms": 1620.0,
+      "loop": 0,
+      "bytes": 742421,
+      "sha256": "a05b0e2fb5c7429e13ab786408e580e4ac380bf80c48ca001cbca01c8742e4b5",
+      "source_sha256": "a05b0e2fb5c7429e13ab786408e580e4ac380bf80c48ca001cbca01c8742e4b5",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        94,
+        80,
+        290,
+        360
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A02",
+      "file": "roam.apng",
+      "frames": 16,
+      "duration_ms": 1440.0,
+      "loop": 0,
+      "bytes": 1401781,
+      "sha256": "35236fa4d26aa77cc43d8102cddb37213d72f403db8310751b87653b9a199506",
+      "source_sha256": "35236fa4d26aa77cc43d8102cddb37213d72f403db8310751b87653b9a199506",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        32,
+        89,
+        346,
+        357
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A03",
+      "file": "yawning-v0.1.apng",
+      "frames": 16,
+      "duration_ms": 2100.0,
+      "loop": 1,
+      "bytes": 1629185,
+      "sha256": "6a60b0dc74e16fe38460927ffe21a255bd255585f0a9d74b3775ef3cad874468",
+      "source_sha256": "6a60b0dc74e16fe38460927ffe21a255bd255585f0a9d74b3775ef3cad874468",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        76,
+        53,
+        307,
+        352
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A04",
+      "file": "dozing-v0.1.apng",
+      "frames": 16,
+      "duration_ms": 2400.0,
+      "loop": 0,
+      "bytes": 1424751,
+      "sha256": "1d31f8e7d4a4073dcdaf8707aea41fce4040ca589521112d427d7665181d1a44",
+      "source_sha256": "1d31f8e7d4a4073dcdaf8707aea41fce4040ca589521112d427d7665181d1a44",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        64,
+        45,
+        311,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A05",
+      "file": "collapsing-v0.2.apng",
+      "frames": 16,
+      "duration_ms": 2000.0,
+      "loop": 1,
+      "bytes": 952576,
+      "sha256": "cd7df7129d3274ad05150bf0cb7b62d505c1d396ea32d2abc5cf05a355039c7f",
+      "source_sha256": "cd7df7129d3274ad05150bf0cb7b62d505c1d396ea32d2abc5cf05a355039c7f",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        79,
+        75,
+        304,
+        356
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A06",
+      "file": "thinking.apng",
+      "frames": 16,
+      "duration_ms": 1600.0,
+      "loop": 0,
+      "bytes": 1881505,
+      "sha256": "86b9fb3bcccd312a7ba81945349058768ac4c890fdbf3b5583fb5c34adae3a7c",
+      "source_sha256": "86b9fb3bcccd312a7ba81945349058768ac4c890fdbf3b5583fb5c34adae3a7c",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        16,
+        84,
+        368,
+        360
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A07",
+      "file": "working.apng",
+      "frames": 9,
+      "duration_ms": 900.0,
+      "loop": 0,
+      "bytes": 1401380,
+      "sha256": "28aebc3eb811300a939e853461cd48f5379732fa1a655e8e61002a52ae8de77a",
+      "source_sha256": "28aebc3eb811300a939e853461cd48f5379732fa1a655e8e61002a52ae8de77a",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        16,
+        46,
+        368,
+        360
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A08",
+      "file": "juggling-v0.1.apng",
+      "frames": 16,
+      "duration_ms": 2000.0,
+      "loop": 0,
+      "bytes": 1928108,
+      "sha256": "9bcbff68a239c3154a7957cbf4e933eefe7b1aa968e2cd0b14696588831586c1",
+      "source_sha256": "9bcbff68a239c3154a7957cbf4e933eefe7b1aa968e2cd0b14696588831586c1",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        20,
+        56,
+        364,
+        356
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A09",
+      "file": "sweeping-v0.2.apng",
+      "frames": 16,
+      "duration_ms": 2000.0,
+      "loop": 0,
+      "bytes": 1182679,
+      "sha256": "a689c0044629babdc5cb1336c4ac760cec0b479d653e227518e3e49d9ba9ef0a",
+      "source_sha256": "068386df279008a7a115a25a15b30223b59a3d57d2bdc94bc72046a193e9e1b8",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        70,
+        50,
+        325,
+        359
+      ],
+      "adjustment": "A09 v0.2: local reconstruction of missing eye/nose alpha; original textures unavailable; 16 frames and timing preserved; visual approval pending"
+    },
+    {
+      "id": "A10",
+      "file": "error.apng",
+      "frames": 12,
+      "duration_ms": 2100.0,
+      "loop": 1,
+      "bytes": 882015,
+      "sha256": "26ab4c44e9e5eb834146de39951aaf019051229415317262a790067ae1a23f15",
+      "source_sha256": "26ab4c44e9e5eb834146de39951aaf019051229415317262a790067ae1a23f15",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        68,
+        80,
+        315,
+        360
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A11",
+      "file": "attention-v0.2.apng",
+      "frames": 60,
+      "duration_ms": 2000.0,
+      "loop": 1,
+      "bytes": 1076415,
+      "sha256": "a9d5683a7b5e22f7796266fac98e9ac8bdd3b8abda7787f2ed4e7868c26fdcc5",
+      "source_sha256": "cd6260e6360956832e6756004b9501a0b9b4a0d10679ca0958c9bf5ff4666f99",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        64,
+        38,
+        360,
+        360
+      ],
+      "adjustment": "Original 384x341 padded to 384x384: top 32px, bottom 11px; no scaling; verified every frame."
+    },
+    {
+      "id": "A12",
+      "file": "notification-v0.1.apng",
+      "frames": 16,
+      "duration_ms": 2000.0,
+      "loop": 0,
+      "bytes": 1235696,
+      "sha256": "eaa65ec7803cabb3fd72c0723353d593735fb0fe485d01b16ea8f11b26f92a98",
+      "source_sha256": "eaa65ec7803cabb3fd72c0723353d593735fb0fe485d01b16ea8f11b26f92a98",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        86,
+        40,
+        317,
+        356
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A13",
+      "file": "carrying-v0.6.apng",
+      "frames": 32,
+      "duration_ms": 640.0,
+      "loop": 0,
+      "bytes": 2621630,
+      "sha256": "b72b3b4347d4b4b3c522089123c12b79271e2048c91e0969a4c120cd50f58133",
+      "source_sha256": "b72b3b4347d4b4b3c522089123c12b79271e2048c91e0969a4c120cd50f58133",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        34,
+        134,
+        350,
+        358
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A14",
+      "file": "sleeping.apng",
+      "frames": 4,
+      "duration_ms": 1320.0,
+      "loop": 0,
+      "bytes": 312373,
+      "sha256": "9c7ca60924508cf9c7fd54df96f2b82653f818a793a07a36280db75ba1c74433",
+      "source_sha256": "9c7ca60924508cf9c7fd54df96f2b82653f818a793a07a36280db75ba1c74433",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        47,
+        160,
+        336,
+        360
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A15",
+      "file": "waking-v0.1.apng",
+      "frames": 12,
+      "duration_ms": 2160.0,
+      "loop": 1,
+      "bytes": 691065,
+      "sha256": "c2f95484b237e31f13cd2a341d0e6d66575935edba13ee0496c0998a98366416",
+      "source_sha256": "c2f95484b237e31f13cd2a341d0e6d66575935edba13ee0496c0998a98366416",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        44,
+        86,
+        340,
+        357
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "A16",
+      "file": "dizzy-v0.1.apng",
+      "frames": 41,
+      "duration_ms": 2400.0,
+      "loop": 1,
+      "bytes": 1048471,
+      "sha256": "c68b6572b70469deb4d23659a78ccc6fc37fe280ec05aa11a3725293f4853c44",
+      "source_sha256": "c68b6572b70469deb4d23659a78ccc6fc37fe280ec05aa11a3725293f4853c44",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        74,
+        47,
+        309,
+        356
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "B02",
+      "file": "working-dual-v0.1.apng",
+      "frames": 12,
+      "duration_ms": 1200.0,
+      "loop": 0,
+      "bytes": 1043224,
+      "sha256": "ab79f42bd75f10b7c1217fa056e394f55c1107440853443c3d479eec0f8a7578",
+      "source_sha256": "ab79f42bd75f10b7c1217fa056e394f55c1107440853443c3d479eec0f8a7578",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        30,
+        110,
+        356,
+        356
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "B03",
+      "file": "b03-working-3plus-v0.1.apng",
+      "frames": 24,
+      "duration_ms": 1440.0,
+      "loop": 0,
+      "bytes": 1535975,
+      "sha256": "85569274fa495ef1df5b401ac6313ca4091354a5921c12570084fc6338566b90",
+      "source_sha256": "85569274fa495ef1df5b401ac6313ca4091354a5921c12570084fc6338566b90",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        20,
+        108,
+        364,
+        358
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "B05",
+      "file": "b05-juggling-multi-v0.1.apng",
+      "frames": 21,
+      "duration_ms": 1920.0,
+      "loop": 0,
+      "bytes": 1370711,
+      "sha256": "fd84dad1d165a6ab401bf65a627259a4e8cdcae6088691e2c16c92ab3e58d766",
+      "source_sha256": "fd84dad1d165a6ab401bf65a627259a4e8cdcae6088691e2c16c92ab3e58d766",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        25,
+        105,
+        360,
+        356
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "C01",
+      "file": "c01-look-around-v0.1.apng",
+      "frames": 15,
+      "duration_ms": 2670.0,
+      "loop": 1,
+      "bytes": 817014,
+      "sha256": "9b9bec1d7a06e930cee37317d233b523fdd32635a9863376484dd640d7a53970",
+      "source_sha256": "9b9bec1d7a06e930cee37317d233b523fdd32635a9863376484dd640d7a53970",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        73,
+        46,
+        287,
+        358
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "C02",
+      "file": "c02-ball-play-v0.2.apng",
+      "frames": 160,
+      "duration_ms": 3200.0,
+      "loop": 1,
+      "bytes": 2881531,
+      "sha256": "1ff3f6130c593ac580363835b45c5f6b0d863cd3587aa26213982c4215530e65",
+      "source_sha256": "1ff3f6130c593ac580363835b45c5f6b0d863cd3587aa26213982c4215530e65",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        35,
+        95,
+        335,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "C03",
+      "file": "c03-bone-chew-v0.1.apng",
+      "frames": 65,
+      "duration_ms": 3250.0,
+      "loop": 1,
+      "bytes": 6108613,
+      "sha256": "0b26a591ac6ca1a73414dc71d2fe0955261d92e8c35d2751e415f8f2c1dcdce4",
+      "source_sha256": "0b26a591ac6ca1a73414dc71d2fe0955261d92e8c35d2751e415f8f2c1dcdce4",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        26,
+        131,
+        357,
+        355
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "C04",
+      "file": "idle-scratch.apng",
+      "frames": 16,
+      "duration_ms": 1920.0,
+      "loop": 1,
+      "bytes": 1472247,
+      "sha256": "b6d51626f4e3f393f42c652578b219818345dc256e2538d292969ec42792167d",
+      "source_sha256": "b6d51626f4e3f393f42c652578b219818345dc256e2538d292969ec42792167d",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        73,
+        80,
+        311,
+        360
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "D01",
+      "file": "d01-drag-v0.1.apng",
+      "frames": 48,
+      "duration_ms": 1920.0,
+      "loop": 0,
+      "bytes": 4146942,
+      "sha256": "a404f53dcb941479c41e3ae3903a8911af8fd4e47e7a3153391b527d759c91a0",
+      "source_sha256": "a404f53dcb941479c41e3ae3903a8911af8fd4e47e7a3153391b527d759c91a0",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        78,
+        28,
+        310,
+        342
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "D02",
+      "file": "d02-click-left-v0.1.apng",
+      "frames": 18,
+      "duration_ms": 1230.0,
+      "loop": 1,
+      "bytes": 1529822,
+      "sha256": "433ddc71b2c7e9792b2424512dff7b767ab797207a48a04159b2ca8c2efa3bc1",
+      "source_sha256": "433ddc71b2c7e9792b2424512dff7b767ab797207a48a04159b2ca8c2efa3bc1",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        41,
+        60,
+        319,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "D03",
+      "file": "d03-click-right-v0.1.apng",
+      "frames": 18,
+      "duration_ms": 1230.0,
+      "loop": 1,
+      "bytes": 1530971,
+      "sha256": "f6025ede315a55fd644966bc889da9adcdff96e6f802991d96f2cc5f94187d65",
+      "source_sha256": "f6025ede315a55fd644966bc889da9adcdff96e6f802991d96f2cc5f94187d65",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        65,
+        60,
+        343,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "D04",
+      "file": "d04-annoyed-v0.1.apng",
+      "frames": 8,
+      "duration_ms": 1410.0,
+      "loop": 1,
+      "bytes": 513306,
+      "sha256": "25dbec6930748cac597dd0da1aaad567a69aa0329473846a2af3f65e574f9c6a",
+      "source_sha256": "25dbec6930748cac597dd0da1aaad567a69aa0329473846a2af3f65e574f9c6a",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        84,
+        68,
+        300,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "D05",
+      "file": "d05-double-wave-v0.1.apng",
+      "frames": 14,
+      "duration_ms": 1400.0,
+      "loop": 1,
+      "bytes": 669023,
+      "sha256": "9a115f2bcf0415fd953ef5ae89735315988fd94ae33f5b2d27244509ee36e491",
+      "source_sha256": "9a115f2bcf0415fd953ef5ae89735315988fd94ae33f5b2d27244509ee36e491",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        82,
+        66,
+        305,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "D06",
+      "file": "d06-double-jump-v0.1.apng",
+      "frames": 21,
+      "duration_ms": 1920.0,
+      "loop": 1,
+      "bytes": 1367435,
+      "sha256": "bff3a6ccfaaf2ea4afa88e134d8e4c84e2afb32b065984e2865f481c1500bf41",
+      "source_sha256": "bff3a6ccfaaf2ea4afa88e134d8e4c84e2afb32b065984e2865f481c1500bf41",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        70,
+        65,
+        313,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E01",
+      "file": "e01-mini-idle-v0.2.apng",
+      "frames": 32,
+      "duration_ms": 1920.0,
+      "loop": 0,
+      "bytes": 2594592,
+      "sha256": "94316fe091601b75eae42e5ff1ef92cd443dd612961be01594ee3ec2ea31c5a0",
+      "source_sha256": "94316fe091601b75eae42e5ff1ef92cd443dd612961be01594ee3ec2ea31c5a0",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        98,
+        60,
+        316,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E02",
+      "file": "e02-mini-alert-v0.2.apng",
+      "frames": 24,
+      "duration_ms": 1440.0,
+      "loop": 1,
+      "bytes": 2044245,
+      "sha256": "b3ac9ad54443a22afd38e14f4ad9af47ca01a4300f5b614a31f3f1b02ab67ec2",
+      "source_sha256": "b3ac9ad54443a22afd38e14f4ad9af47ca01a4300f5b614a31f3f1b02ab67ec2",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        68,
+        52,
+        316,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E03",
+      "file": "e03-mini-happy-v0.2.apng",
+      "frames": 24,
+      "duration_ms": 1440.0,
+      "loop": 0,
+      "bytes": 1894431,
+      "sha256": "d129b454f8e7fab1dfe3092cc5f9e656e71026c109f20e28e3b1d4b430c676eb",
+      "source_sha256": "d129b454f8e7fab1dfe3092cc5f9e656e71026c109f20e28e3b1d4b430c676eb",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        82,
+        65,
+        301,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E04",
+      "file": "e04-mini-enter-v0.2.apng",
+      "frames": 20,
+      "duration_ms": 1200.0,
+      "loop": 1,
+      "bytes": 1762973,
+      "sha256": "98c0ee58dbf9db87bc527ce17d242543b07a0d5c9f2faec765c01243dd125f95",
+      "source_sha256": "98c0ee58dbf9db87bc527ce17d242543b07a0d5c9f2faec765c01243dd125f95",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        98,
+        57,
+        358,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E05",
+      "file": "e05-mini-peek-v0.2.apng",
+      "frames": 18,
+      "duration_ms": 1230.0,
+      "loop": 1,
+      "bytes": 1529822,
+      "sha256": "433ddc71b2c7e9792b2424512dff7b767ab797207a48a04159b2ca8c2efa3bc1",
+      "source_sha256": "433ddc71b2c7e9792b2424512dff7b767ab797207a48a04159b2ca8c2efa3bc1",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        41,
+        60,
+        319,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E06",
+      "file": "e06-mini-working-v0.2.apng",
+      "frames": 32,
+      "duration_ms": 1920.0,
+      "loop": 0,
+      "bytes": 448557,
+      "sha256": "0bd0adeef3d62230dc736e28e7d8e9162525e38b143d8d36b24526c153b77a30",
+      "source_sha256": "0bd0adeef3d62230dc736e28e7d8e9162525e38b143d8d36b24526c153b77a30",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        24,
+        120,
+        299,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E07",
+      "file": "e07-mini-crabwalk-v0.3.apng",
+      "frames": 32,
+      "duration_ms": 640.0,
+      "loop": 0,
+      "bytes": 3716928,
+      "sha256": "120c4417ec2c75d9cb66d6ac22ce851c51333f7efe5c47548364ee1f9f8951e9",
+      "source_sha256": "120c4417ec2c75d9cb66d6ac22ce851c51333f7efe5c47548364ee1f9f8951e9",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        35,
+        49,
+        342,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E08",
+      "file": "e08-mini-enter-sleep-v0.3.apng",
+      "frames": 8,
+      "duration_ms": 1800.0,
+      "loop": 1,
+      "bytes": 506247,
+      "sha256": "f067ad8c1590ba95563ebf27de0540d2283ce54d59b81bd5d827764c35ceb257",
+      "source_sha256": "f067ad8c1590ba95563ebf27de0540d2283ce54d59b81bd5d827764c35ceb257",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        31,
+        152,
+        348,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E09",
+      "file": "e09-mini-sleep-v0.3.apng",
+      "frames": 48,
+      "duration_ms": 2400.0,
+      "loop": 0,
+      "bytes": 2139668,
+      "sha256": "f1e1fbbd667c9b00a430918d71bf95fa9a654b86b5bec2aa0ba5d9fdf8f9aefb",
+      "source_sha256": "f1e1fbbd667c9b00a430918d71bf95fa9a654b86b5bec2aa0ba5d9fdf8f9aefb",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        31,
+        137,
+        348,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "E09-LEFT",
+      "file": "e09-mini-sleep-v0.3-left.apng",
+      "frames": 48,
+      "duration_ms": 2400.0,
+      "loop": 0,
+      "bytes": 2140398,
+      "sha256": "b4b7d57657719916b8c156f5e65c4809cbabd78b0d6feee8b43a456b69c161dd",
+      "source_sha256": "b4b7d57657719916b8c156f5e65c4809cbabd78b0d6feee8b43a456b69c161dd",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        31,
+        137,
+        348,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "F01",
+      "file": "f01-designing-v0.2.apng",
+      "frames": 48,
+      "duration_ms": 2400.0,
+      "loop": 0,
+      "bytes": 196507,
+      "sha256": "4dea613a20dcda70db89250d09530a54663ae0fe61da31cdda5a8877e21952d8",
+      "source_sha256": "4dea613a20dcda70db89250d09530a54663ae0fe61da31cdda5a8877e21952d8",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        32,
+        161,
+        352,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "F02",
+      "file": "f02-debugging-v0.2.apng",
+      "frames": 56,
+      "duration_ms": 3200.0,
+      "loop": 0,
+      "bytes": 1813128,
+      "sha256": "6c92b42b927bab115b24f6351f2b7b48672e706c3b31d2e10c0c74f1be8b2d6f",
+      "source_sha256": "6c92b42b927bab115b24f6351f2b7b48672e706c3b31d2e10c0c74f1be8b2d6f",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        25,
+        33,
+        363,
+        354
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "F03",
+      "file": "f03-special-complete-v0.1.apng",
+      "frames": 36,
+      "duration_ms": 2160.0,
+      "loop": 1,
+      "bytes": 2708376,
+      "sha256": "cd6c25b379a10d7a6065fa98484b5a07b5492b23b4738ad5e626d1d430eef1b8",
+      "source_sha256": "cd6c25b379a10d7a6065fa98484b5a07b5492b23b4738ad5e626d1d430eef1b8",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        73,
+        52,
+        306,
+        350
+      ],
+      "adjustment": null
+    },
+    {
+      "id": "F04",
+      "file": "f04-easter-egg-v0.1.apng",
+      "frames": 32,
+      "duration_ms": 2240.0,
+      "loop": 0,
+      "bytes": 1384658,
+      "sha256": "0cc2a49003575959f7f938486ed107421d694f46c7091235a0977f23b2453255",
+      "source_sha256": "0cc2a49003575959f7f938486ed107421d694f46c7091235a0977f23b2453255",
+      "canvas": [
+        384,
+        384
+      ],
+      "bbox": [
+        32,
+        48,
+        352,
+        350
+      ],
+      "adjustment": null
+    }
+  ],
+  "checks": {
+    "all_apng_crc": true,
+    "all_decoded": true,
+    "all_384_square": true,
+    "all_transparent_nonempty_no_touch": true,
+    "references_exact": true,
+    "E04_to_E01_pixel_equal": true,
+    "E08_to_E09_pixel_equal": true,
+    "official_cli": "not run",
+    "desktop": "not run",
+    "github_binary": "A09 v0.2 committed at 513a38c4388a73d06f7a746d79346b02e746f1c4; remote Git blob identity verified"
+  },
+  "known_limitations": [
+    "A02 original roam preserved; E07 provisional reconstructed v0.3, not original A13 layered pipeline; shared gait not finished",
+    "A11 v0.2 padded without scaling",
+    "A05/A14/A15 visual continuity and cross-state proportions not fully normalized",
+    "F04 manually selectable, not conditional accessory Easter egg",
+    "F01/F02/F03 displayHint keys based on upstream default; actual Codex events unverified"
+  ]
+}

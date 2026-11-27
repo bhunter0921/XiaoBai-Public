@@ -1,0 +1,44 @@
+# Authentication and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+auth.json
+credentials.json
+secrets.json
+
+# Private materials and backups
+private/
+references/private/
+artwork/private/
+backups/
+*.bundle
+*.bundle.sha256
+audit-private/
+
+# Python environment
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE and editor files
+.vscode/
+.idea/
+*~
+\#*\#
+.\#*
+
+# Logs and temporary files
+*.log
+tmp/
+.cache/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
